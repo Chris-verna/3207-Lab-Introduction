@@ -1,2 +1,5 @@
 int main() {
-  randchar();
+  char randchar(void) {
+    return 'A' + (rand() % 26);
+  }
+}
