@@ -2,5 +2,5 @@
 #include "random.h"  // for prototype
 
 char randchar(void) {
-    return 'A' + (rand() % 26);
+    return 'A' + (random() % 26);
 }
